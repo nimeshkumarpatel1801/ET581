@@ -31,15 +31,8 @@ public class HW3 {
         }
         System.out.println("min is :"+min);
         System.out.println("max is:"+max);
-
-       
-        System.out.println("==========================================================================");
-        
-        
-        String Str = sc.nextLine();
-        System.out.println(Str);
-       
-       
+      
+       sc.close();
      
     }
 }
