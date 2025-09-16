@@ -1,5 +1,8 @@
 package Lab3;
 import java.util.Scanner;
+import java.util.StringTokenizer;
+
+import javax.sound.sampled.SourceDataLine;
 
 
 public class Homework3Part2 {
@@ -15,5 +18,18 @@ public class Homework3Part2 {
         System.out.println("reversed : "+reversewords);
         int vowel = 0;
         
+        for(int i=0; i<words.length();i++){
+            char ch=words.charAt(i);
+            if (ch=='a'||ch=='e'||ch=='i'||ch=='u'||ch=='o'){
+                vowel++;
+            }
+                
+            }
+         }
+        System.out.println(vowel);
+     
+      sc.close();
+        }
+    
     }
-}
+
