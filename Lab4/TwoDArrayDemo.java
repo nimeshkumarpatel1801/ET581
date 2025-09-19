@@ -9,7 +9,7 @@ public class TwoDArrayDemo {
         };
         for(int i=0;i<a.length;i++){
             for(int j=0;j < a[i].length;j++){
-                System.out.println("Row"+i+"Col"+j+"Value"+a[i][j]+" ");
+                System.out.println("Row "+i+" Col "+j+" Value "+a[i][j]+" ");
             }
             System.out.println();
         }
