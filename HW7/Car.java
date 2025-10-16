@@ -4,7 +4,7 @@ public class Car extends Vehicle {
     int doors;
     
    
-    public Car(String brand, int year, int doors){
+    public void  car(String brand, int year, int doors){
       super.vehicle(brand, year);
         this.doors = doors;
         System.out.println("Car is :"+brand + "year is :"+year + "doors are :"+doors);

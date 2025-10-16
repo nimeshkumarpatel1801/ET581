@@ -1,6 +1,6 @@
 package HW7;
 
-public class Driver extends Car{ 
+public class Driver { 
     String name;
     Vehicle vehicle;
 
