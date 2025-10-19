@@ -1,11 +1,11 @@
 package HW7.Part2;
 
 public class Library {
-    Book book;
-    Book getBook(){
-       return new Book(String title, double price);
-    }
+   Book vook;
   {
     String string = "Library instance block executed";
   }
+    Book getBook(){
+       return new Book("Unknown", 10.0);
+    }
 }
