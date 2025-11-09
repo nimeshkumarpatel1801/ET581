@@ -9,16 +9,16 @@ public class Main {
         l1.add("B");
         l1.add("C");        
         l1.add("D");
-        for(int i =0; i<l1.size();i++){
-            System.out.println("Element at index "+ i + ": " + l1.get(i));
-        }
-        System.out.println("Collection before set method: " + l1);
+       // for(int i =0; i<l1.size();i++){
+       //     System.out.println("Element at index "+ i + ": " + l1.get(i));
+       // }
+       // System.out.println("Collection before set method: " + l1);
        // l1.set(0,"X");
       // l1.add(0,"X");
-       l1.add(0,"D");
-        System.out.println("After set method: " + l1);
-        System.out.println(l1.indexOf("D"));
-        System.out.println(l1.lastIndexOf("D"));
+      // l1.add(0,"D");
+       // System.out.println("After set method: " + l1);
+       // System.out.println(l1.indexOf("D"));
+      //  System.out.println(l1.lastIndexOf("D"));
         for (int i =0; i<l1.size();i++){
             Iterator<String> it = l1.iterator();
             it.remove();
@@ -27,5 +27,6 @@ public class Main {
                 l1.remove(i);
             }
         }
+        System.out.println("Collection after removal: " + l1);
     }
 }
